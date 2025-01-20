@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card bg-secondary text-light mx-auto" style="max-width: 500px;">
+    <div class="card-body text-center">
+        <h3 class="card-title">Result</h3>
+        <p class="lead">{{ result }}</p>
+        <img src="{{ image_url }}" alt="Uploaded Image" class="img-fluid mt-3 rounded">
+        <a href="/" class="btn btn-primary mt-3">Upload Another</a>
+    </div>
+</div>
+{% endblock %}
